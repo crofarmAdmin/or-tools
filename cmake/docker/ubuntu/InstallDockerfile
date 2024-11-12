@@ -1,4 +1,4 @@
-FROM ubuntu:devel
+FROM ubuntu:oracular-20241009
 LABEL maintainer="corentinl@google.com"
 
 RUN apt-get update -qq && \
