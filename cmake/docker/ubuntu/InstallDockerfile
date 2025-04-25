@@ -1,4 +1,4 @@
-FROM ubuntu:devel
+FROM ubuntu:25.04
 LABEL maintainer="corentinl@google.com"
 
 RUN apt-get update -qq && \
